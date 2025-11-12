@@ -401,8 +401,56 @@
                                 </li>
                             </ul>
             </div>
+            <div class="third-foot-div">
+                <label class="footer-p">Subscribe</label>
+                <div class="input-foot-div">
+                    <input type="email" placeholder="E-mail" class="foot-input">
+                    <button type="submit" class="foot-button">
+                    <p class="button-p">Subscribe</p>
+                    <svg width="24" height="24" class="foot-svg">
+                        <use href="./images/icons.svg#icon-Frame-3"></use>
+                    </svg>
+                    
+                    </button>
+                </div>
+            </div>
         </div>
     </footer>
      <!-- #endregion footer -->
-</body>
+
+    <!-- #region modal form -->
+        <div class="modal-overley ">
+            <div class="modal">
+                <h2 class="modal-title">Leave your contacts and we will call you back</h2>
+                <form class="modal-form">
+                    <fieldset class="first-modal-form">
+                        <label class="label-first-form">
+                            <p class="text-label">Name</p>
+                            <input type="text" name="register"  class="modal-input">
+                        </label>
+                        <label class="label-first-form" >
+                            <p class="text-label">Phone</p>
+                            <input type="tel" name="register"  class="modal-input">
+                        </label>
+                        <label class="label-first-form">
+                            <p class="text-label">Email</p>
+                            <input type="email" name="register"  class="modal-input">
+                        </label>
+                        <label class="label-first-form">
+                            <p class="text-label" >Comment</p>
+                            <textarea class="modal-textarea" rows="6" placeholder="Text input"></textarea>
+                        </label>
+                    </fieldset>
+                    <div class="privacy">
+                        <input type="checkbox">
+                        <p class="text-label">I accept the terms and conditions of the <a href="#" class="privacy-policy">Privacy Policy</a></p>
+                    </div>
+                    <button class="modal-button" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+
+
+    <!-- #endregion modal form -->
+    </body>
 </html>
